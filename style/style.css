@@ -46,7 +46,13 @@ html {
           animation: moveInBottom 0.5s ease-out 0.75s;
   -webkit-animation-fill-mode: backwards;
           animation-fill-mode: backwards;
-  max-width: 5rem;
+}
+
+.btn:hover {
+  -webkit-transform: translateY(-2px);
+          transform: translateY(-2px);
+  -webkit-box-shadow: 0 10px 0.5rem rgba(0, 0, 0, 0.2);
+          box-shadow: 0 10px 0.5rem rgba(0, 0, 0, 0.2);
 }
 
 .btn::after {
@@ -63,16 +69,20 @@ html {
   transition: all 0.3s;
 }
 
+.btn-red {
+  background-color: #ff5722;
+  color: #fff;
+}
+
 .btn-red::after {
-  background-color: red;
+  background-color: #ff5722;
+  color: #fff;
 }
 
-.btn:hover::after {
-  -webkit-transform: scaleX(1.5) scaleY(1.6);
-          transform: scaleX(1.5) scaleY(1.6);
+/* .btn:hover::after {
+  transform: scaleX(1.5) scaleY(1.6);
   opacity: 0;
-}
-
+} */
 .btn:active {
   -webkit-transform: translateY(-1px);
           transform: translateY(-1px);
