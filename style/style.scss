@@ -2,20 +2,16 @@
 @import "./_panda";
 @import "./_btn-link";
 @import "./_text-effects";
-html {
-  font-size: 62.5%;
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
+@import "./ice";
+@import "./_explore.scss";
 .container {
   width: 80vw;
-  height: 70vh;
+  //height: 90vh;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   padding: 1rem;
-  margin: 1rem;
+  margin: 2rem auto;
   font-size: 1.5rem;
   align-items: center;
   text-align: center;
