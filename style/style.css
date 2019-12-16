@@ -39,8 +39,8 @@ html {
   margin: 1rem;
   font-size: 2rem;
   border-radius: 10rem;
-  -webkit-transition: all 0.2s;
-  transition: all 0.2s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
   position: relative;
   -webkit-animation: moveInBottom 0.5s ease-out 0.75s;
           animation: moveInBottom 0.5s ease-out 0.75s;
